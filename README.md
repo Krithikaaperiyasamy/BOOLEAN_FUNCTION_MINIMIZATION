@@ -127,7 +127,6 @@ endmodule
 **RTL realization**
 
 **Output:**
-
 i)
 
 <img width="1880" height="1006" alt="Screenshot 2025-10-05 193245" src="https://github.com/user-attachments/assets/15a4a9f6-2d39-4752-aa0f-cf46bd8bdffa" />
@@ -139,7 +138,6 @@ ii)
 **RTL**
 
 **Timing Diagram**
-
 i)
 
 <img width="1918" height="1014" alt="Screenshot 2025-10-05 193224" src="https://github.com/user-attachments/assets/2c6cdfac-9e26-4016-855e-fc093da18c58" />
