@@ -16,7 +16,49 @@ Hardware – PCs, Cyclone II , USB flasher
 
 **Theory**
 
+Boolean function minimization is the process of simplifying Boolean algebraic expressions to reduce the number of logic gates and complexity in a digital circuit, leading to more efficient, faster, and less costly hardware
+
+For minimizing Boolean expressions,we can use a set of rules and laws (like distributive, associative, and complement laws) to simplify Boolean expressions. This method focuses on applying algebraic manipulations to reduce the complexity of the expression by eliminating redundant terms.
+
+Identity Law	A ⋅ 1 = A, A + 0 = A
+Null Law	A ⋅ 0 = 0, A + 1 = 1
+Idempotent Law	A ⋅ A = A, A + A = A
+Complement Law	A ⋅ A′ = 0, A + A' = 1
+Distributive Law	A ⋅ (B + C) = A ⋅ B + A ⋅ C
+De Morgan’s Law	(A ⋅ B)′ = A′ + B', (A + B)′ = A′ ⋅ B′
+Absorption Law	A ⋅ (A + B) = A, A + (A ⋅ B) = A
+Associative Law A + (B + C) = (A + B) + C, A.(B.C) = (A.B).C
+Commutative law A B = B A,A + B = B + A
+
 **Logic Diagram**
+
+Identity Law
+<img width="773" height="404" alt="image" src="https://github.com/user-attachments/assets/ee03b072-d12d-4316-bccb-25f30d794241" />
+
+Idempotent Law
+<img width="189" height="135" alt="image" src="https://github.com/user-attachments/assets/9583b752-472d-4695-b4bc-cdf91ff5e373" />
+
+Complement Law
+<img width="206" height="130" alt="image" src="https://github.com/user-attachments/assets/f496bf36-4a72-4b1e-8069-0fed06ea2866" />
+
+Distributive Law	
+<img width="527" height="140" alt="image" src="https://github.com/user-attachments/assets/a575682e-5533-4511-b359-7044bda2ed85" />
+
+De Morgan’s Law
+<img width="700" height="270" alt="image" src="https://github.com/user-attachments/assets/a83e7a79-8da7-4b8c-ac39-19b3315e39cc" />
+<img width="700" height="270" alt="image" src="https://github.com/user-attachments/assets/feea9c93-2a80-4de0-bdc2-44993e071e8c" />
+
+Absorption Law	
+<img width="365" height="79" alt="image" src="https://github.com/user-attachments/assets/98601cb8-d805-438b-a684-970277dc076b" />
+
+Associative Law 
+<img width="295" height="301" alt="image" src="https://github.com/user-attachments/assets/a413bfed-04c2-4d97-a431-6a1e81a4bf40" />
+
+Commutative law 
+<img width="270" height="277" alt="image" src="https://github.com/user-attachments/assets/6dd84e0f-d5de-4ef3-8957-b5f6177e21ee" />
+
+
+
 
 **Procedure**
 
@@ -34,18 +76,30 @@ Hardware – PCs, Cyclone II , USB flasher
 **Program:**
 
 Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
+
 i)
+
 module funct1(a,b,c,d,f1);
+
 input a,b,c,d;
+
 output f1;
+
 assign f1=((~b & ~d)|(~a & b & d)|(a & b & ~c));
+
 endmodule
 
+
 ii)
+
 module funct2(w,x,y,z,f2);
+
 input w,x,y,z;
+
 output f2;
+
 assign f2=((~y & z)|( w & y )|(x & y));
+
 endmodule
 
 **RTL realization**
