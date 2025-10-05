@@ -101,6 +101,13 @@ Null law
 
 
 
+
+
+
+
+
+
+
 **Procedure**
 
 1.	Type the program in Quartus software.
