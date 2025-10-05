@@ -103,11 +103,6 @@ Null law
 
 
 
-
-
-
-
-
 **Procedure**
 
 1.	Type the program in Quartus software.
@@ -149,6 +144,15 @@ output f2;
 assign f2=((~y & z)|( w & y )|(x & y));
 
 endmodule
+
+
+
+
+
+
+
+
+
 
 **RTL realization**
 
