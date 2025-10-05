@@ -76,6 +76,9 @@ Commutative law
 
 <img width="270" height="277" alt="image" src="https://github.com/user-attachments/assets/6dd84e0f-d5de-4ef3-8957-b5f6177e21ee" />
 
+Null law
+
+<img width="537" height="261" alt="image" src="https://github.com/user-attachments/assets/a0d2df72-4e06-408e-b09c-711b04792a5c" />
 
 
 
@@ -124,6 +127,7 @@ endmodule
 **RTL realization**
 
 **Output:**
+
 i)
 
 <img width="1880" height="1006" alt="Screenshot 2025-10-05 193245" src="https://github.com/user-attachments/assets/15a4a9f6-2d39-4752-aa0f-cf46bd8bdffa" />
@@ -135,6 +139,7 @@ ii)
 **RTL**
 
 **Timing Diagram**
+
 i)
 
 <img width="1918" height="1014" alt="Screenshot 2025-10-05 193224" src="https://github.com/user-attachments/assets/2c6cdfac-9e26-4016-855e-fc093da18c58" />
