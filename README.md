@@ -170,11 +170,13 @@ ii)
 **Timing Diagram**
 i)
 
-<img width="1918" height="1014" alt="Screenshot 2025-10-05 193224" src="https://github.com/user-attachments/assets/2c6cdfac-9e26-4016-855e-fc093da18c58" />
+<img width="1920" height="982" alt="Screenshot 2025-10-06 232727" src="https://github.com/user-attachments/assets/c8c1edb8-423c-443c-a127-411a90f4ad5f" />
+
 
 ii)
 
-<img width="1920" height="1018" alt="Screenshot 2025-10-05 194003" src="https://github.com/user-attachments/assets/61d67c2e-c936-4705-9a10-1c7d2ee89a40" />
+<img width="1917" height="981" alt="Screenshot 2025-10-06 233523" src="https://github.com/user-attachments/assets/000727aa-dcd8-41b1-9387-4e4ee4b33db6" />
+
 
 
 **Result:**
